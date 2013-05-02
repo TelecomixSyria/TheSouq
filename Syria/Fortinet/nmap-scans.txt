@@ -1,0 +1,98 @@
+# nmap -A  -sS 82.137.192.141
+
+Starting Nmap 5.51 ( http://nmap.org ) at 2011-10-13 13:48 CEST
+Nmap scan report for ns1.pdn.sy (82.137.192.141)
+Host is up (0.11s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE VERSION
+53/tcp  open   domain  ISC BIND 9.2.3
+113/tcp closed auth
+Device type: firewall
+Running: Fortinet embedded
+OS details: Fortinet FortiGate-50B or 310B firewall, Fortinet FortiGate-60B or -100A firewall
+Network Distance: 15 hops
+
+TRACEROUTE (using port 113/tcp)
+HOP RTT       ADDRESS
+1   31.31 ms  10.7.3.1
+*** 2-7 STRIPPED ***
+8   31.45 ms  ae-34-52.ebr2.Paris1.Level3.net (4.69.139.225)
+9   31.63 ms  ae-46-46.ebr1.Frankfurt1.Level3.net (4.69.143.137)
+10  31.65 ms  ae-91-91.csw4.Frankfurt1.Level3.net (4.69.140.14)
+11  32.72 ms  ae-4-90.edge6.Frankfurt1.Level3.net (4.69.154.202)
+12  23.15 ms  195.16.161.174
+13  100.32 ms 195.175.5.101
+14  153.09 ms 195.175.5.102
+15  152.96 ms ns1.pdn.sy (82.137.192.141)
+
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 39.29 seconds
+
+
+# nmap -A -O -Pn 213.178.224.164
+
+Starting Nmap 5.51 ( http://nmap.org ) at 2011-10-12 13:55 CEST
+Nmap scan report for 213.178.224.164
+Host is up (0.13s latency).
+Not shown: 999 filtered ports
+PORT    STATE  SERVICE VERSION
+113/tcp closed auth
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|firewall|broadband router
+Running: Avaya embedded, Fortinet embedded, Motorola VxWorks 5.X
+OS details: Avaya P580 switch running Cajun Switch Agent v5.4.2, Avaya P880 switch running Cajun Switch Agent v5.3.2, Fortinet 
+FortiGate-50B or 310B firewall, Fortinet FortiGate-60B or -100A firewall, Motorola SURFboard SB3100 cable modem (VxWorks 5.3)
+Network Distance: 10 hops
+
+TRACEROUTE (using port 113/tcp)
+HOP RTT       ADDRESS
+1   12.23 ms  10.7.2.1
+2   31.70 ms  10.8.48.1
+*** 3-6 STRIPPED ***
+7   31.83 ms  217.243.218.37
+8   51.85 ms  217.239.37.118
+9   136.10 ms 80.156.162.198
+10  127.39 ms 213.178.224.164
+
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.50 seconds
+
+# nmap -A 82.137.204.54
+
+Starting Nmap 6.01 ( http://nmap.org ) at 2012-07-07 05:01 CEST
+Nmap scan report for 82.137.204.54
+Host is up (0.14s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE  VERSION
+80/tcp  open   http     Fortinet VPN/firewall http config
+|_http-title: Site doesn't have a title (text/html).
+113/tcp closed ident
+443/tcp open   ssl/http Fortinet VPN/firewall http config
+| ssl-cert: Subject: commonName=Fortinet/organizationName=Fortinet Ltd.
+| Not valid before: 2002-06-11 00:00:00
+|_Not valid after:  2014-06-11 00:00:00
+|_http-title: Site doesn't have a title (text/html).
+Device type: router|specialized|WAP|general purpose|VoIP adapter|printer|firewall|storage-misc
+Running (JUST GUESSING): Linksys embedded (94%), AVtech embedded (91%), Apple embedded (90%), Linux 2.6.X|2.4.X (90%), OpenBSD 4.X (90%), Cisco embedded (88%), Lexmark embedded (88%), Netgear RAIDiator 4.X (88%)
+OS CPE: cpe:/o:linux:kernel:2.6.28 cpe:/o:openbsd:openbsd:4.0 cpe:/h:cisco:unified_call_manager cpe:/h:lexmark:z2400 cpe:/o:linux:kernel:2.4 cpe:/o:linux:kernel:2.6 cpe:/o:netgear:raidiator:4
+Aggressive OS guesses: Linksys BEFSR41 EtherFast router (94%), AVtech Room Alert 26W environmental monitor (91%), Apple AirPort Extreme WAP v7.3.2 (90%), Linux 2.6.28 (90%), OpenBSD 4.0 (90%), OpenBSD 4.3 (88%), Cisco Unified Communications Manager VoIP gateway (88%), Lexmark Z2400 printer (88%), DD-WRT v23 (Linux 2.4.36) (88%), Vyatta router (Linux 2.6.26) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 17 hops
+Service Info: Device: firewall
+
+TRACEROUTE (using port 113/tcp)
+HOP RTT       ADDRESS
+1   7.08 ms   192.168.0.254
+*** 2-9 STRIPPED ***
+10  41.56 ms  TenGE13-2.br02.ams01.pccwbtn.net (195.69.145.37)
+11  122.21 ms 82.137.192.205
+12  ...
+13  256.60 ms 10.1.100.26
+14  117.75 ms 10.20.100.30
+15  ...
+16  146.14 ms 82.137.204.52
+17  143.22 ms 82.137.204.54
+
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 49.52 seconds
+

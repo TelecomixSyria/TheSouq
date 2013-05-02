@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="468.22"
+   height="468.22"
+   id="svg3113"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="pute.svg"
+   inkscape:export-filename="/home/kheops/Work/tcx/pute.png"
+   inkscape:export-xdpi="196.83109"
+   inkscape:export-ydpi="196.83109">
+  <defs
+     id="defs3115" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="164.11"
+     inkscape:cy="165.19597"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="748"
+     inkscape:window-height="655"
+     inkscape:window-x="-96"
+     inkscape:window-y="79"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3118">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-185.89,-215.39504)">
+    <g
+       transform="translate(-0.94500732,151.86503)"
+       id="g2993">
+      <circle
+         style="fill:#ffffff;stroke:#000000;stroke-width:40"
+         sodipodi:ry="214.11"
+         sodipodi:rx="214.11"
+         sodipodi:cy="297.64001"
+         sodipodi:cx="420.94501"
+         d="m 635.05501,297.64001 c 0,118.24969 -95.86031,214.11001 -214.11,214.11001 -118.24969,0 -214.11,-95.86032 -214.11,-214.11001 0,-118.24968 95.86031,-214.109996 214.11,-214.109996 118.24969,0 214.11,95.860316 214.11,214.109996 z"
+         cx="420.94501"
+         cy="297.64001"
+         r="214.11"
+         id="circle2995" />
+    </g>
+    <text
+       y="434.13696"
+       x="338.93365"
+       style="font-size:222.93493652px;font-family:TimesNewRomanPSMT"
+       transform="scale(0.99030296,1.009792)"
+       font-size="225.1179"
+       id="text3019">Ω</text>
+    <polyline
+       transform="matrix(0.4465846,0,0,0.4465846,232.01245,208.5824)"
+       points="352.259,361.207 419.936,296.05 489.631,361.207    "
+       id="polyline2999" />
+    <g
+       id="g3298"
+       transform="matrix(0.87197439,0,0,-0.87197439,52.94674,839.38607)">
+      <polyline
+         points="293.874,285.208 278.927,298.143 317.156,311.365 300.772,319.413 365.733,333.498 327.217,314.814       345.038,306.766     "
+         id="polyline3229" />
+      <polyline
+         points="257.741,327.628 247.06,344.26 287.468,346.138 274.026,358.488 340.319,353.639 298.092,346.604       312.912,333.846     "
+         id="polyline3231" />
+      <polyline
+         points="265.788,372.08 258.542,390.471 298.545,384.461 287.76,399.188 351.847,381.549 309.057,382.854       321.115,367.459     "
+         id="polyline3233" />
+      <polyline
+         points="331.614,427.093 336.777,446.173 365.286,417.475 365.423,435.728 406.314,383.323 372.761,409.91       373.248,390.361     "
+         id="polyline3235" />
+      <polyline
+         points="548.016,286.977 562.963,299.911 524.732,313.134 541.117,321.182 476.156,335.267 514.674,316.583       496.852,308.534     "
+         id="polyline3237" />
+      <polyline
+         points="584.148,329.396 594.83,346.028 554.422,347.906 567.863,360.257 501.57,355.407 543.797,348.372       528.979,335.614     "
+         id="polyline3239" />
+      <polyline
+         points="576.102,373.849 583.348,392.239 543.346,386.229 554.131,400.956 490.043,383.317 532.832,384.622       520.773,369.228     "
+         id="polyline3241" />
+      <polyline
+         points="510.275,428.861 505.113,447.941 476.604,419.243 476.467,437.496 435.576,385.092 469.129,411.679       468.643,392.13     "
+         id="polyline3243" />
+    </g>
+    <g
+       transform="matrix(1.2193348,0,0,1.1423436,-98.457499,279.97496)"
+       id="g641"
+       style="font-size:12px">
+      <path
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0"
+         id="path642"
+         d="m 425.197,212.598 10.63,-7.086 17.716,7.086 -17.716,7.087 -10.63,-7.087 z"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0"
+         id="path643"
+         d="m 425.197,212.599 -10.63,7.086 -17.716,-7.086 17.716,-7.087 10.63,7.087 z"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0"
+         id="path644"
+         d="m 425.196,212.598 -7.086,-10.63 7.086,-17.716 7.087,17.716 -7.087,10.63 z"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0"
+         id="path645"
+         d="m 425.197,294.094 -7.087,-14.173 -24.803,10.63 31.89,-77.953 31.89,77.953 -24.804,-10.63 -7.086,14.173 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

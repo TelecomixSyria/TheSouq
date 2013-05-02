@@ -1,0 +1,26 @@
+Hereafter comes a raw dump obtained with tcpdump -A -s 2048 on port 80 on server 88.191.132.173 (telecomix.ceops.eu).
+Date/Time: 2011-10-12 17:40:11 CEST
+
+Interesting data:
+- 82.137.200.48 is the IP from which the HTTP request came (the BlueCoat proxy). It is a Syrian IP.
+- The "Referer" HTTP-header: shows that the person comes from Google, and was searching for Arabic transcription of "Telecomix"
+- "X-Forwarded-For: 31.9.XX.XX": The IP address of the Syrian subscriber who was browsing the Web
+- "X-BlueCoat-Via: AACDEBEFA2CBA614": HTTP header that indicates that the request was processed by a BlueCoat proxy. Note that each BlueCoat device emits exactly ONE UNIQUE such ID.
+
+
+---
+
+17:40:11.358106 IP 82.137.200.48.60240 > 88.191.132.173.80: P 0:988(988) ack 1 win 1032 <nop,nop,timestamp 1854459201 1793220100>
+E.......,...R..0X....P.PIipM.6#!....>......
+n..Aj.^.GET /guidelines_EN-AR.odt HTTP/1.1
+Accept: image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://www.google.com/custom?client=pub-3794288947762788&forid=1&channel=4183257091&ie=UTF-8&oe=UTF-8&safe=active&cof=GALT%3A%23008000%3BGL%3A1%3BDIV%3A%23336699%3BVLC%3A663399%3BAH%3Acenter%3BBGC%3AFFFFFF%3BLBGC%3A336699%3BALC%3A0000FF%3BLC%3A0000FF%3BT%3A000000%3BGFNT%3A0000FF%3BGIMP%3A0000FF%3BFORID%3A1&hl=ar&q=%D8%AA%D9%8A%D9%84%D9%8A%D9%83%D9%88%D9%85%D9%8A%D9%83%D8%B3
+Accept-Language: ar-SY
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Accept-Encoding: gzip, deflate
+Host: telecomix.ceops.eu
+X-Forwarded-For: 31.9.XX.XX
+Cache-Control: max-stale=0
+Connection: Keep-Alive
+X-BlueCoat-Via: AACDEBEFA2CBA614
+

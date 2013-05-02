@@ -1,0 +1,15 @@
+........GET /show_page/id_zf1da43be175111e097c0.html HTTP/1.1
+Accept: */*
+Accept-Language: en-securid
+Referer: http://zy.youku.com/
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; CIBA; .NET CLR 2.0.50727; AskTB5.4; MAXTHON 2.0)
+Host: www.youku.com
+Cookie: isRemoveOnPlayComplete=true; __ysuid=13197881012238N8; __utmarea=102058-12584-1-2
+Cache-Control: max-stale=0
+Connection: Keep-Alive
+X-BlueCoat-Via: 6FA167DDB2C1D144
+
+
+10:00:23.408685 IP 88.191.132.173.80 > 46.57.160.150.19673: Flags [.], ack 479, win 54, options [nop,nop,TS val 297145131 ecr 2543247884], length 0
+
