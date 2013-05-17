@@ -1,9 +1,0 @@
-01:34:09.237197 IP 91.144.44.68.11297 > 88.191.132.173.80: Flags [P.], seq 1:243, ack 1, win 65535, options [nop,nop,TS val 8012294 ecr 289551536], length 242
-E..&........[.,DX...,!.P:...Z.t......I.....
-.zB..B4.GET /catalog/imvu_monitor_submit.php?cid=86120184&csid=7621004&event=monitor_start&extra= HTTP/1.1
-Host: 88.191.132.173
-X-Forwarded-For: 95.159.**.**
-Cache-Control: max-stale=0
-Connection: Keep-Alive
-X-BlueCoat-Via: C96E97569D835384
-
