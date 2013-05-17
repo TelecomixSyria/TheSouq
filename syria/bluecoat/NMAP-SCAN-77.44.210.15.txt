@@ -1,0 +1,71 @@
+This is a nmap scan result executed from Europe towards 77.44.210.15, which is a Syrian IP belonging to the Syrian 
+Computer Society. See http://whatismyipaddress.com/ip/77.44.210.15 for more details.
+---
+
+# nmap -A -O 77.44.210.15
+
+Starting Nmap 5.51 ( http://nmap.org ) at 2011-10-12 13:38 CEST
+Nmap scan report for 77.44.210.15
+Host is up (0.13s latency).
+Not shown: 985 closed ports
+PORT     STATE    SERVICE     VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+53/tcp   open     domain?
+80/tcp   open     http        Blue Coat proxy server
+|_http-title: Access Denied
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+81/tcp   open     http-proxy  BlueCoat SG-400 http proxy
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+1720/tcp filtered H.323/Q.931
+1723/tcp filtered pptp
+2000/tcp filtered cisco-sccp
+3128/tcp open     http        Blue Coat proxy server
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+|_http-title: Access Denied
+4444/tcp filtered krb524
+5060/tcp filtered sip
+8080/tcp open     http        Blue Coat proxy server
+|_http-title: Access Denied
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+8082/tcp open     ssl/http    Blue Coat SG210 http proxy config
+|_sslv2: server still supports SSLv2
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| http-auth: HTTP/1.1 401 Authentication Required
+| 
+|_Basic realm=77.44.210.15
+1 service unrecognized despite returning data. If you know the service/version, please submit the following 
+fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port53-TCP:V=5.51%I=7%D=10/12%Time=4E957C47%P=i686-pc-linux-gnu%r(DNSVe
+SF:rsionBindReq,44,"\0B\0\x06\x85\0\0\x01\0\x01\0\x01\0\0\x07version\x04bi
+SF:nd\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\n\t\[secured\]\xc0\x0c\0
+SF:\x02\0\x03\0\0\0\0\0\x02\xc0\x0c");
+Device type: WAP|general purpose|phone|proxy server
+Running (JUST GUESSING): Netgear embedded (92%), FreeBSD 6.X|7.X|5.X (90%), Apple iPhone OS 3.X (87%), Apple Mac OS X 
+10.5.X|10.6.X|10.4.X|10.3.X (87%), Blue Coat SGOS 5.X (86%)
+Aggressive OS guesses: Netgear WGR614v7 wireless broadband router (92%), FreeBSD 6.2-RELEASE (90%), FreeBSD 
+7.0-CURRENT (90%), FreeBSD 5.4-RELEASE (89%), FreeBSD 6.3-RELEASE (89%), FreeBSD 6.0-STABLE - 6.2-RELEASE (88%), Apple 
+iPhone mobile phone (iPhone OS 3.0 - 3.2.1, Darwin 10.0.0d3) (87%), Apple Mac OS X 10.5.2 - 10.6.2 (Leopard - Snow 
+Leopard) (Darwin 9.2.0 - 10.2.0) (87%), Apple Mac OS X 10.6.2 (Snow Leopard) (Darwin 10.2.0) (87%), Blue Coat SG510 
+proxy server (SGOS 5.2.2.5) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 15 hops
+Service Info: OS: SGOS; Device: proxy server
+
+TRACEROUTE (using port 256/tcp)
+HOP RTT       ADDRESS
+1   20.23 ms  10.7.2.1
+2   30.41 ms  10.8.48.1
+*** HOPS 3-8 STRIPPED FOR PRIVACY ***
+9   134.65 ms 80.156.162.194
+10  120.87 ms 82.137.192.205
+11  ...
+12  143.63 ms 10.1.100.2
+13  152.90 ms 172.19.1.2
+14  152.87 ms 77.44.201.206
+15  135.43 ms 77.44.210.15
+
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 54.48 seconds
+
