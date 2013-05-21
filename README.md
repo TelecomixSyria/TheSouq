@@ -21,4 +21,4 @@ This repository contains the following directories:
 - _syria/_ says it all.
 
 
-    ~~~~~:)
+     (:~~~~~
