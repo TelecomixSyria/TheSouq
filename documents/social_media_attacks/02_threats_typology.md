@@ -1,11 +1,10 @@
 ## Typology of threats
 Here we should describe the threats, their effect, how they are conducted, etc. We may have to add a link to non social media based attacks, as they are all just a tool to achieve some goal.
 
-### Attacks on confidentiality and privacy
+### Intelligence gathering from public data
+Fetching data from social networks to gather information on people. This includes pictures, social relations, political opinions, etc. They only entail using publicly available data.
 
-#### Intelligence gathering from public data
-Fetching data from social networks to gather information on people. This includes pictures, social relations, political opinions, etc.
-
+### Attacks on confidential and private data
 #### Phishing
 [Phishing](https://en.wikipedia.org/wiki/Phishing) consists in designing fake login pages for usual online services (social media, banks, etc.), putting these pages online and spreading the links to the fake page in order to retrieve peoples' credentials.
 
@@ -43,3 +42,5 @@ Organized groups, either paid by local authorities or not, sometimes massively p
 
 This phenomenon also happens through the writing of blogposts.
 
+### Analysis and reassembling of scattered data into intelligence
+Scattered data fetched from various means, from account compromission to search through publicly available content, leads to reconstructing precise pictures about people.
