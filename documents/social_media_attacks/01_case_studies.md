@@ -53,3 +53,5 @@ Decent social media services must provide the possiblity to use an end-to-end se
 However, in Tunisia, [Microsoft and Ben Ali's government](https://en.wikipedia.org/wiki/Microsoft_Tunisia_Scandal) concluded a commercial partnership which led Microsoft to ship [a special version of their browser Internet Explorer that allowed the Tunisian government to perform MITM attacks on encrypted connections](https://news.ycombinator.com/item?id=2138565) without yielding any warning on users' browsers.
 
 In short, not only the Tunisian government was known to eavesdrop on non-secure traffic, but through their collaboration with a Western company they could eavesdrop on a traffic that users were legitimately thinking to be secure, with dramatic consequences.
+
+
