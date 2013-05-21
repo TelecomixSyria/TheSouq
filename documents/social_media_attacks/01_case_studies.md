@@ -28,3 +28,28 @@ Publicly available exploited information included:
 - websites of institutions such as schools, companies and events like conferences to further identify the persons' background and social environment;
 - information from DNS _whois_ databases.
 
+### The DarkComet RAT dissemination to Syrian activists via Skype and Facebook
+Syrian authorities spread to anti-regime groups and activists links to a malicious application called DarkComet RAT. It is a software that allows to fully monitor and access a computer remotely (opened windows, keystrokes, hard disk content, etc.). In the Syrian context, its goal is to catch more social media credentials in order to access data that people aim at keeping private: conversations, contact lists, etc.
+
+In this case, social media is seen by the regime both as a way to spread a malicious applications and as a target to fetch more personal data.
+
+To push people to download the software application, the main idea is to abuse their credulity. The regime used, for instance, these methods:
+
+- registering fake Facebook accounts and spreading messages saying that the software linked [would actually protect activists against regime's intrusion attempts](https://www.eff.org/deeplinks/2012/05/fake-skype-encryption-tool-targeted-syrian-activists-promises-security-delivers);
+- using activists' accounts (stolen, for instance, after torturing them to obtain their password) and benefiting of their trusted position from their contact to spread malicious links, saying in the same way that it would protect them against regime's intrusions;
+- making a [fake Youtube page](https://resources.telecomix.ceops.eu/material/reports/2012-03-07-fake-youtube-spyware.jpg) and advertising it as showing regime's violence, but asking the user to download a fake "Flash update" on the page it self, fake update which contains the malware;
+- building a variety of other fake pages to fool users into downloading the software;
+- embedding the malicious software in a good-looking software installer to avoid users' suspiscion after installing it.
+
+It has been reported that people were trapped and imprisoned as a result of the spreading of this malware.
+
+### Collaboration of Microsoft and Ben Ali's Tunisia to eavesdrop on activists' connections to social media
+In this case, social media activity is targeted by the use of eavesdropping equipment and software by authorities. By eavesdropping on internet traffic, Tunisian authorities were able to catch, among a lot of other data, users' credentials on websites, in turns use to infiltrate accounts and gather more information.
+
+Such eavesdropping is very easy to setup in an infrastructure like in Tunisia because all the internet traffic leaving the country passes through the same physical place under direct control of authorities. Observing passively the traffic is a silent operation for any who is located where it passes.
+
+Decent social media services must provide the possiblity to use an end-to-end secure connection (_HTTPS_ for _HTTP over SSL_), theoretically preventing traffic eavesdropping by third parties located between the user's station and the end website. For instance, Facebook and Twitter use _HTTPS_ connections by default. For a third party to pierce through a SSL encrypted connection, passive monitoring is not enough: it requires an active traffic perturbation called [Man-in-the-Middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) (MITM) which, in normal conditions, implies that the user will have a warning displayed on his browser.
+
+However, in Tunisia, [Microsoft and Ben Ali's government](https://en.wikipedia.org/wiki/Microsoft_Tunisia_Scandal) concluded a commercial partnership which led Microsoft to ship [a special version of their browser Internet Explorer that allowed the Tunisian government to perform MITM attacks on encrypted connections](https://news.ycombinator.com/item?id=2138565) without yielding any warning on users' browsers.
+
+In short, not only the Tunisian government was known to eavesdrop on non-secure traffic, but through their collaboration with a Western company they could eavesdrop on a traffic that users were legitimately thinking to be secure, with dramatic consequences.
