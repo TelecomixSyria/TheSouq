@@ -17,7 +17,7 @@ All the previous analyzes, had been done in less than 24 hours after the first a
 ### Investigation on staff in charge of surveillance and censorship in Syria
 Around the affair of the [Fortinet devices present in Syria](http://bluecabinet.info/wiki/Blue_cabinet/Fortinet/Syria) under the control of the Syrian government, investigations allowed to pinpoint a few names of people responsible or potentially responsible of being charge of those devices.
 
-The peculiarity of this investigation is that, unlike the capture of Saddam Hussein, it did not involve any official authorities with special capabilities or allowances. Information was obtained for its greatest part by searching into publicly available data and combining it with informal discussions (on publicly reachable IRC networks and channels) and privately obtained information.
+The peculiarity of this investigation is that, unlike the capture of Saddam Hussein, it did not involve any official authorities with special capabilities or allowances. Information was obtained for its greatest part by searching into publicly available data and combining it with informal discussions (on publicly reachable IRC networks and channels) and to a lower extent privately obtained intelligence.
 
 It led to the very precise identification of a [small number of people](http://bluecabinet.info/wiki/Blue_cabinet/Fortinet/Syria#People_involved_in_massive_surveillance) closely involved with the regime's surveillance and censorship systems, to some of their relationships and to a large part of their past which enabled to understand more deeply their relations with the central power.
 
